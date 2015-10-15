@@ -521,7 +521,7 @@ function zoomTo(d) {
 			.style("display",  null)
 			.attr("y", function(d) { return d.titleHeight * k; })
 			.style("font-size", function(d) { return Math.round(d.fontTitleSize * k)+'px'; })
-			.text(function(d,i) { return "Total "+commaFormat(d.size)+" (in thousands) | "+d.name; })
+			.text(function(d,i) { return "Total "+commaFormat(d.size)+"  | "+d.name; })
 			.each(function(d) { wrap(this, k * d.textLength); });
 
 		//Rescale the bars
