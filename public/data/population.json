@@ -29,7 +29,7 @@
      ]
     },
     {
-     "name": "Stress-levels",
+     "name": "Stress",
      "children": [
       {"name": "High Participation",        "ID": "1.4.1", "size":3340},
       {"name": "Moderate Participation",    "ID": "1.4.2", "size":521},
